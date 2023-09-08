@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("images/sss.jpg");
+    background-size: cover;
+    filter: brightness(100%)
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    word-break: break-all;
+}
