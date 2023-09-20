@@ -1,0 +1,77 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("images/sss.jpg");
+    background-size: cover;
+    filter: brightness(100%)
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid;
+    display:inline-block;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10px;
+    word-break: break-word;
+}
+
+
+div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+    border-radius: 20px;
+    display: inline-block; 
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.selected {
+    color: #adadad;
+}
+
+ul.vertical li{
+    display:list-item;
+}
