@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html onmousemove="display(event)">
+<html onmousemove="display(event)" onclick="toggle_flashlight()">
 
 
 
@@ -9,12 +9,16 @@
 
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
+    <div id="flashlight"></div>
+    
 
 </head>
 
 
 
 <body>
+    
+
 
 <div class="center">
 <ul>
@@ -29,11 +33,21 @@
 <div class="center">
 <h1>BTT-10</h1>
 </div>
-<div id="invert"; class="invert"></div>
+
 <h2>Business Class</h2>
 
 
 <p>BTT-10 is the first business class you can take in Sandwich Secondary School. This website was made entirely during my free time in this class. This is what I will spend most of my free time on, store the Javascript games I make during this class, and upload any assignments needed.</p>
+
+<div class="center">
+    <div class="hider" style="border: solid 1px white;">
+        <p class="hidden">Hidden Text</p>
+    </div>
+
+    <div class="reverse_hider" style="border: solid 1px black;">
+        <p class="reverse_hidden">Hidden Text</p>
+    </div>
+</div>
 
 
 
