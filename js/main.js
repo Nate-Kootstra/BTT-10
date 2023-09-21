@@ -3,7 +3,7 @@ function display(event) {
     let X = event.clientX;
     let Y = event.clientY;
 
-    if(!document.getElementById('flashlight').classList.contains('flashlight')) {
+    if(!document.getElementById('flashlight').classList.contains('flashlight') && !document.getElementById('flashlight').classList.contains('reverse_flashlight')) {
         document.getElementById('flashlight').classList.add('flashlight');
     }
 
