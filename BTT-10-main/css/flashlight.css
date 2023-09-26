@@ -1,0 +1,62 @@
+* {
+    user-select: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.flashlight {
+    -webkit-backdrop-filter: brightness(10000%) contrast(10000%);
+    backdrop-filter: brightness(10000%) contrast(10000%);
+    mix-blend-mode: exclusion;
+  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(255, 238, 0, 0.075), rgba(255, 238, 0, 0.075));
+    pointer-events: none;
+}
+
+.reverse_flashlight {
+    -webkit-backdrop-filter: brightness(50%) contrast(10000%);
+    backdrop-filter: brightness(50%) contrast(10000%);
+    mix-blend-mode: exclusion;
+  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(85, 0, 85, 0.1), rgba(85, 0, 85, 0.1));
+    pointer-events: none;
+}
+
+.hider {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.hidden {
+    color: #030303;
+}
+
+.reverse_hider {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.reverse_hidden {
+    color: #fcfcfc;
+}
