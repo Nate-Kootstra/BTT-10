@@ -8,8 +8,9 @@ body {
 }
 
 .flashlight {
-    -webkit-backdrop-filter: brightness(10000%) contrast(10000%);
-    backdrop-filter: brightness(10000%) contrast(10000%);
+    z-index: 100;
+    -webkit-backdrop-filter: brightness(1000000%) contrast(10000%);
+    backdrop-filter: brightness(1000000%) contrast(10000%);
     mix-blend-mode: exclusion;
   
     position: absolute;
@@ -21,6 +22,7 @@ body {
 }
 
 .reverse_flashlight {
+    z-index: 100;
     -webkit-backdrop-filter: brightness(50%) contrast(10000%);
     backdrop-filter: brightness(50%) contrast(10000%);
     mix-blend-mode: exclusion;
@@ -45,6 +47,12 @@ body {
 
 .hidden {
     color: #030303;
+}
+
+.hiddenimg {
+    z-index: 0;
+    filter: brightness(1%)
+    
 }
 
 .reverse_hider {
